@@ -1,0 +1,10 @@
+
+f1 = open("input.txt", "r")
+data = f1.read()
+f1.close()
+
+f2 = open("output.txt", "w")
+f2.write(data.upper())
+f2.close()
+
+print("File copied in uppercase successfully!")
